@@ -1,0 +1,49 @@
+.homeScreen{
+    min-height: 100vh;
+    background-color: #282c34;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.homeScreenContents{
+    width: 300px;
+}
+.images{
+    padding: 10px;
+}
+.hideDiv{
+    display: none;
+}
+.selectedImage{
+    height: 100px;
+    width: 100px;
+}
+.resultImage
+{
+    margin-left: 10px;
+    height: 100px;
+    width: 100px;
+    transform: rotateY(180deg);
+    image-orientation: from-image;
+}
+.inputForm > p{
+    color: white;
+}
+button{
+    margin-left: 5px;
+    background-color: black;
+    border: none;
+    width: 40%;
+    color: white;
+    height:40px;
+    cursor: pointer;
+}
+input{
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+    color: white;
+}
